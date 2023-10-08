@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Express App</title>
+</head>
+<body>
+    <h1>Booking App</h1>
+    <div class="outerDiv">
+        <form>
+            <label>Expense</label>
+            <input type="number" id="input-number" placeholder="Enter Expense"/>
+            <label>Description</label>
+            <input type="text" id="input-description" placeholder="Enter description"/>
+            <label for="category" id="categoryLabel">Choose Category</label><br>
+
+            <select name="category" id="category">
+              <option value="work-out">work out</option>
+              <option value="reading">reading</option>
+              <option value="studying">studying</option>
+              <option value="playing">playing</option>
+            <button type="submit" id="btnid">SUBMIT</button>
+        </form>
+        <div class="expenses">
+            <ul id="expenselist">
+                
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
+    <script src="expense.js"></script>
+</body>
+</body>
+</html>
